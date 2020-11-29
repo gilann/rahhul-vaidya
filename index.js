@@ -16310,7 +16310,7 @@ function myFunction(text, id) {
   // console.log(document.getElementById(id));
 
   // var val = input + " \n" + text;
-  textArea.value = text + " \n" + input.value;
+  textArea.value = text + " \n\n" + input.value;
   document.body.appendChild(textArea);
   textArea.style.position="fixed";
 
