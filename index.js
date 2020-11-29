@@ -16294,9 +16294,9 @@ for(let i = 0; i<1638; i++){
 
   button.id = i ; 
   button.addEventListener("click", function() {
-    myFunction(qoutes[i]+"\n#BBTrendMasterRahulVaidya", i);
+    myFunction(qoutes[i], i);
   });
-  li.appendChild(document.createTextNode(i+1 + ". " + qoutes[i] +"\n#BBTrendMasterRahulVaidya"));
+  li.appendChild(document.createTextNode(i+1 + ". " + qoutes[i]));
   li.appendChild(button);
   x.appendChild(li);
 }
@@ -16310,7 +16310,7 @@ function myFunction(text, id) {
   // console.log(document.getElementById(id));
 
   // var val = input + " \n" + text;
-  textArea.value = input.value + " \n" + text;
+  textArea.value = text + " \n" + input.value;
   document.body.appendChild(textArea);
   textArea.style.position="fixed";
 
