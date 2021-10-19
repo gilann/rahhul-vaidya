@@ -16247,9 +16247,6 @@ var data = [{
   "quoteText": "Victory belongs to the most persevering.",
   "quoteAuthor": "Napoleon Bonaparte"
   }, {
-  "quoteText": "I believe that every person is born with talent.",
-  "quoteAuthor": "Maya Angelou"
-  }, {
   "quoteText": "It is the quality of our work which will please God, not the quantity.",
   "quoteAuthor": "Mahatma Gandhi"
   }, {
