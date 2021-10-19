@@ -14,9 +14,6 @@ var data = [{
   "quoteText": "Fate is in your hands and no one elses",
   "quoteAuthor": "Byron Pulsifer"
   }, {
-  "quoteText": "Be the chief but never the lord.",
-  "quoteAuthor": "Lao Tzu"
-  }, {
   "quoteText": "Nothing happens unless first we dream.",
   "quoteAuthor": "Carl Sandburg"
   }, {
