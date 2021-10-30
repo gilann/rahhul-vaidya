@@ -14,6 +14,9 @@ var data = [{
   "quoteText": "Fate is in your hands and no one elses",
   "quoteAuthor": "Byron Pulsifer"
   }, {
+  "quoteText": "Be the chief but never the lord.",
+  "quoteAuthor": "Lao Tzu"
+  }, {
   "quoteText": "Nothing happens unless first we dream.",
   "quoteAuthor": "Carl Sandburg"
   }, {
@@ -16247,6 +16250,9 @@ var data = [{
   "quoteText": "Victory belongs to the most persevering.",
   "quoteAuthor": "Napoleon Bonaparte"
   }, {
+  "quoteText": "I believe that every person is born with talent.",
+  "quoteAuthor": "Maya Angelou"
+  }, {
   "quoteText": "It is the quality of our work which will please God, not the quantity.",
   "quoteAuthor": "Mahatma Gandhi"
   }, {
@@ -16288,9 +16294,9 @@ for(let i = 0; i<1638; i++){
 
   button.id = i ; 
   button.addEventListener("click", function() {
-    myFunction(qoutes[i], i);
+    myFunction(qoutes[i]+"\nUNDISPUTED KING PRATIK", i);
   });
-  li.appendChild(document.createTextNode(i+1 + ". " + qoutes[i]));
+  li.appendChild(document.createTextNode(i+1 + ". " + qoutes[i] +"\nUNDISPUTED KING PRATIK"));
   li.appendChild(button);
   x.appendChild(li);
 }
@@ -16304,9 +16310,7 @@ function myFunction(text, id) {
   // console.log(document.getElementById(id));
 
   // var val = input + " \n" + text;
-
-  textArea.value = text + " \n\n" + input.value + "\nUNDISPUTED KING PRATIK";
-
+  textArea.value = input.value + " \n" + text;
   document.body.appendChild(textArea);
   textArea.style.position="fixed";
 
