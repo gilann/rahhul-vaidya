@@ -16305,7 +16305,7 @@ function myFunction(text, id) {
 
   // var val = input + " \n" + text;
 
-  textArea.value = text + " \n\n" + input.value + "\n@i_sgupta1";
+  textArea.value = text + " \n\n" + input.value + "\nUNDISPUTED KING PRATIK";
 
   document.body.appendChild(textArea);
   textArea.style.position="fixed";
