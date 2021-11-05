@@ -16294,9 +16294,9 @@ for(let i = 0; i<1638; i++){
 
   button.id = i ; 
   button.addEventListener("click", function() {
-    myFunction(qoutes[i]+"\nUNDISPUTED KING PRATIK", i);
+    myFunction(qoutes[i]+"\nPRATIK IS THE BOSS", i);
   });
-  li.appendChild(document.createTextNode(i+1 + ". " + qoutes[i] +"\nUNDISPUTED KING PRATIK"));
+  li.appendChild(document.createTextNode(i+1 + ". " + qoutes[i] +"\nPRATIK IS THE BOSS"));
   li.appendChild(button);
   x.appendChild(li);
 }
